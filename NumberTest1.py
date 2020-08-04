@@ -1,4 +1,4 @@
-#向下传递测试
+# 向下传递测试
 # 对数据类型的一些认识及一些简单操作
 # 输出数据类型
 # 数量自身的一些计算语法
@@ -125,9 +125,9 @@ def SetsLoops():
         pass
     print(set1)
     pass
+
+
 from math import sqrt
-
-
 # set的循环 以及 推导
 def SetsLoops():
     lsit1 = list(range(5))
@@ -143,6 +143,8 @@ def SetsLoops():
 def Tuples():
     d = {(x,x+3) : x for x in range(10)};
     print(d)
+    print(d[(1,4)])
+    # print(d[])
     pass
 
 
