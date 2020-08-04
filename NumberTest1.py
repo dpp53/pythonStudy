@@ -142,8 +142,12 @@ def SetsLoops():
 # 元祖是一个有序的列表，和列表很相似，但是元祖可以用作键，可以作为集合的元素，但是列表不行
 def Tuples():
     d = {(x,x+3) : x for x in range(10)};
+
+    e= {x : x for x in range(10)}
+    print(e)
     print(d)
-    print(d[(1,4)])
+    # print(d[(1,4)])
+    print(d)
     # print(d[])
     pass
 
